@@ -1,0 +1,14 @@
+name: ci
+
+on:
+  # TODO: add triggers, e.g. pull_request targeting main
+  workflow_dispatch:
+
+jobs:
+  # TODO: replace with real CI jobs
+  placeholder:
+    name: Placeholder
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op
+        run: echo "Add real CI steps here"

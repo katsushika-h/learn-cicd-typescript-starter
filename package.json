@@ -10,7 +10,8 @@
     "build": "npx tsc",
     "start": "node dist/main.js",
     "dev": "npx tsc && node dist/main.js",
-    "test": "vitest --run"
+    "test": "vitest --run",
+    "gitpush": "git add . && git commit -m 'autopush' && git push "
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

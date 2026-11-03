@@ -11,7 +11,7 @@
     "start": "node dist/main.js",
     "dev": "npx tsc && node dist/main.js",
     "test": "vitest --run",
-    "gitpush": "git add . && git commit -m 'autopush' && git push "
+    "gitpush": "git add -A && git commit -m \"${npm_config_message:?usage: npm run gitpush --message='your message'}\" && git push"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
